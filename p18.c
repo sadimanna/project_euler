@@ -4,9 +4,9 @@
 
 int main()
 {
-	int lenstr,nnum,i,j,grind,n = 15,k=0;
+	int lenstr,nnum,i,j,n = 15,k=0;
 	char data[50],num[2];
-	long int grsum=0,temp = 0,tempsum = 0;
+	long int grsum=0,temp = 0;
 	FILE *file;
 	file = fopen("pe18.txt","r");
 	int **matrix = (int **)malloc(n*sizeof(int *));
