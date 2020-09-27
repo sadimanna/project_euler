@@ -16,8 +16,4 @@ if __name__ == '__main__':
 		fracnum = one_over_fraction(fracnum[0],fracnum[1])
 		#print()
 		fracnum = inte_plus_fraction(fracnum[0],fracnum[1],liste[i-1])
-		'''print(fracnum[0])
-								print('-'*len(str(fracnum[0])))
-								print(fracnum[1])'''
-	print()
 	print(sum(list(map(int,list(str(fracnum[0]))))))
